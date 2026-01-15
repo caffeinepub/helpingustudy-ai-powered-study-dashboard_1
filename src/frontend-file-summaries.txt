@@ -1,0 +1,19 @@
+{
+  "frontend/src/App.tsx": "Main application component that handles authentication state, profile setup modal, and renders the header, dashboard, and footer with theme provider.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for all backend operations including flashcards, notes, quizzes, files, search, and user profiles with proper loading states and error handling.",
+  "frontend/src/components/Header.tsx": "Application header with branding, theme toggle, and login/logout functionality.",
+  "frontend/src/components/Footer.tsx": "Footer component with copyright and caffeine.ai attribution.",
+  "frontend/src/components/ProfileSetupModal.tsx": "Modal dialog for first-time user profile setup requiring name input.",
+  "frontend/src/pages/Dashboard.tsx": "Main dashboard page that shows welcome hero for unauthenticated users or dashboard content for authenticated users.",
+  "frontend/src/components/WelcomeHero.tsx": "Landing page hero section with feature highlights and call-to-action for unauthenticated users.",
+  "frontend/src/components/DashboardContent.tsx": "Main dashboard interface with tabs for flashcards, quizzes, notes, and uploads, plus integrated search functionality.",
+  "frontend/src/components/tabs/FlashcardsTab.tsx": "Flashcards management tab displaying cards grouped by topic with create, edit, and study features.",
+  "frontend/src/components/tabs/QuizzesTab.tsx": "Quiz performance tracking tab showing statistics and history of quiz attempts.",
+  "frontend/src/components/tabs/NotesTab.tsx": "Study notes management tab with topic-based organization and note viewing.",
+  "frontend/src/components/tabs/UploadTab.tsx": "File upload interface with progress tracking and file library display, includes AI generation notice.",
+  "frontend/src/components/dialogs/CreateFlashcardDialog.tsx": "Dialog for creating and editing flashcards with topic, difficulty, question, and answer fields.",
+  "frontend/src/components/dialogs/CreateNoteDialog.tsx": "Dialog for creating new study notes with title, topic, and content fields.",
+  "frontend/src/components/dialogs/NoteViewDialog.tsx": "Full-screen note viewer dialog displaying note content with metadata.",
+  "frontend/src/components/FlashcardViewer.tsx": "Interactive flashcard study interface with flip animation and navigation between cards.",
+  "frontend/src/index.css": "Global styles with OKLCH-based color system featuring purple/blue theme for both light and dark modes."
+}

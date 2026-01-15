@@ -1,2 +1,8 @@
-# helpingustudy-ai-powered-study-dashboard_1
-Exported from Caffeine project: HelpingUStudy   AI Powered Study Dashboard
+## HelpingUStudy   AI Powered Study Dashboard
+
+To run app build and run docker image:
+
+```
+docker build -t app .
+docker run -it --network host app
+```
